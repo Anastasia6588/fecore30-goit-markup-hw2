@@ -1,0 +1,28 @@
+:root {
+	--main-text-color: #212121;
+	--special-text-color: #757575;
+	--hover-color: #2196f3;
+	--light-text-color: #ffffff;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.web-color {
+	color: #2196f3;
+}
+
+.footer-web-color {
+	color: white;
+}
