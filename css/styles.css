@@ -5,6 +5,28 @@
 	--light-text-color: #ffffff;
 }
 
+ul {
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: var(--main-text-color);
+}
+
+.site-nav {
+	color: var(--main-text-color);
+}
+
+.site-nav:hover,
+:focus {
+	color: var(--hover-color);
+}
+
+.contacts {
+	color: var(--special-text-color);
+}
+
 .visually-hidden {
 	position: absolute;
 	width: 1px;
