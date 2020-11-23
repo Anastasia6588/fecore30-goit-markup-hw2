@@ -39,8 +39,11 @@ a {
 	letter-spacing: 0.02em;
 }
 
-.site-nav:hover,
-:focus {
+.site-nav:hover {
+	color: var(--hover-color);
+}
+
+.site-nav:focus {
 	color: var(--hover-color);
 }
 
@@ -57,10 +60,17 @@ a {
 	letter-spacing: 0.02em;
 }
 
+.contacts:hover {
+	color: var(--hover-color);
+}
+
+.contacts:focus {
+	color: var(--hover-color);
+}
+
 .hero {
 	background: #2f303a;
 	width: 1600px;
-	height: 600px;
 }
 
 .hero-title {
@@ -137,8 +147,7 @@ a {
 
 .team {
 	background: #f5f4fa;
-	/*width: 1600px;
-	height: 648px;*/
+	/*width: 1600px;*/
 }
 
 .team-title {
@@ -185,7 +194,6 @@ a {
 .footer {
 	background: #2f303a;
 	width: 1600px;
-	height: 252px;
 }
 
 .web-color {
