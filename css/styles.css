@@ -26,6 +26,10 @@ a {
 	letter-spacing: 0.03em;
 }
 
+.header-web-color {
+	color: var(--main-text-color);
+}
+
 .site-nav {
 	color: var(--main-text-color);
 	font-family: Roboto;
@@ -214,4 +218,55 @@ a {
 	font-size: 14px;
 	line-height: 1.714;
 	letter-spacing: 0.03em;
+}
+
+/*portfolio*/
+
+.filter-buttons {
+	list-style-type: none;
+}
+
+.filter-buttons-item {
+	color: var(--main-text-color);
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.625;
+	text-align: center;
+	letter-spacing: 0.03em;
+	background: #f5f4fa;
+	border-radius: 4px;
+}
+
+.filter-buttons-item:hover {
+	color: var(--light-text-color);
+	background: #2196f3;
+}
+
+.product-cards {
+	list-style-type: none;
+}
+
+.product-cards-title {
+	color: var(--main-text-color);
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.product-card-filter {
+	color: var(--special-text-color);
+	font-family: Roboto;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.875;
+	letter-spacing: 0.03em;
+}
+
+.product-cards-design {
+	background: #ffffff;
+	border: 1px solid #eeeeee;
+	box-sizing: border-box;
 }
